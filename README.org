@@ -7,3 +7,7 @@
 
   enlive-samples tries to provide very simple examples, to be used as
   a starting point in other projects
+
+* Resources
+
+   - A great tutorial :: [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
