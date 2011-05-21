@@ -9,10 +9,7 @@
 
 (html/deftemplate index "enlivesamples/sample1.html"
   [ctxt]
-  [:p#message] (html/content (if-let [msg (:message ctxt)]
-                               msg
-                               "you forgot to put a content"))
-  [:p#fooId] (html/content (:fooId ctxt)))
+  [:p#message] (html/content (:message ctxt)))
 
 ;; ========================================
 ;; The App
@@ -22,12 +19,6 @@
   (app
    [""]       (fn [req] (render-to-response
                         (index {:message (str "Date is: " (java.util.Date.))})))
-   ["change"] (fn [req] (render-to-response
-                        (index {
-                                :fooId "I was here ;)"})))
-   ["date"] (fn [req] (render-to-response
-                      (index {:message (str "Today is: "
-                                            (java.util.Date.))})))
    [&]        {:status 404
                :body "Page Not Found"}))
  

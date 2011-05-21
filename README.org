@@ -32,7 +32,7 @@
    lein swank
 #+END_SRC
 
-** At the repl: 
+** At the REPL: 
 
 #+BEGIN_SRC clojure
 (do (require 'enlivesamples.sample1)
@@ -42,6 +42,8 @@
          ['clojure.repl]
          ['enlivesamples.utils]))
 #+END_SRC
+
+** Now point your browser at http://localhost:8080
 
 * First example: A simple html page with dynamic content.
 * Credits
