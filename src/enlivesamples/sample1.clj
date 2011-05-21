@@ -9,7 +9,8 @@
 
 (html/deftemplate index "enlivesamples/sample1.html"
   [ctxt]
-  [:p#message] (html/content (:message ctxt)))
+  [:p#message] (html/content (do (println "ctxt=" ctxt)
+                                 (:message ctxt))))
 
 ;; ========================================
 ;; The App

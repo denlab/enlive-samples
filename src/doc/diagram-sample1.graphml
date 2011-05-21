@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key attr.name="Description" attr.type="string" for="graph" id="d7">
+    <default/>
+  </key>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="172.46875" width="497.603515625" x="200.44140625" y="401.53125"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="497.603515625" x="0.0" y="0.0"/>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="80.0" width="100.0" x="-50.0" y="-30.0"/>
+              <y:Fill color="#CAECFF84" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="100.0" x="0.0" y="0.0">Folder 2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="215.44140625" y="469.0"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.322265625" x="28.478515625" y="6.015625">url 1</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="391.8828125" y="469.0"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="64.46875" x="11.9052734375" y="6.015625">function 1</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="215.44140625" y="529.0"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="32.6640625" x="27.8076171875" y="6.015625">url N</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n3">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="391.8828125" y="529.0"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="15.443359375" x="36.41796875" y="6.015625">...</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n4">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="594.765625" y="420.53125"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="78.326171875" x="4.9765625" y="6.015625">http request</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n5">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="594.765625" y="511.0625"/>
+              <y:Fill color="#FFCC99" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="87.21484375" x="0.5322265625" y="6.015625">http response</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d4"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="166.96875" width="497.603515625" x="200.44140625" y="186.03125"/>
+              <y:Fill color="#F5F5F5" transparent="false"/>
+              <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="497.603515625" x="0.0" y="0.0"/>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="80.0" width="100.0" x="-50.0" y="-30.0"/>
+              <y:Fill color="#CAECFF84" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="100.0" x="0.0" y="0.0">Folder 2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n1:">
+        <node id="n1::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="215.44140625" y="248.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="63.37890625" x="12.4501953125" y="6.015625">selector 1</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="391.8828125" y="248.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="64.46875" x="11.9052734375" y="6.015625">function 1</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="215.44140625" y="308.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="64.720703125" x="11.779296875" y="6.015625">selector N</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n3">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="391.8828125" y="308.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="15.443359375" x="36.41796875" y="6.015625">...</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n4">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="594.765625" y="206.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="50.76953125" x="18.7548828125" y="-0.96875">context
+&lt;map&gt;</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n5">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="88.279296875" x="594.765625" y="289.0"/>
+              <y:Fill color="#CCFFCC" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="81.091796875" x="3.59375" y="-0.96875">html content
+model</y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n2">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="88.279296875" x="60.8603515625" y="173.0"/>
+          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="78.279296875" x="5.0" y="-0.96875">index
+&lt;template&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="88.279296875" x="-94.279296875" y="295.0"/>
+          <y:Fill color="#CCFFCC" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="65.119140625" x="11.580078125" y="6.015625">html page</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="88.279296875" x="60.8603515625" y="419.0"/>
+          <y:Fill color="#FFCC99" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="46.697265625" x="20.791015625" y="-0.96875">routes
+&lt;app&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d4"/>
+      <data key="d5"><![CDATA[UMLNote]]></data>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="110.0" width="405.0" x="407.0224609375" y="27.5"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="101.78125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="400.94921875" x="2.025390625" y="4.109375">Maps the Clojure world (the context map) to the
+HTML world (the selected DOM).
+
+Could be: 
+    - A simple value/location mapping 
+    - or something more complex: Multiple values for one location, 
+      transformation of the values, ...</y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d4"/>
+      <data key="d5"><![CDATA[UMLNote]]></data>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="74.0" width="289.0" x="528.8603515625" y="615.0"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="247.474609375" x="20.7626953125" y="7.0625">Uses the index to render the response.
+Do the business logic related to the url.
+And passes the map values (context) to 
+the index to render</y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="37.0" x="78.720703125" y="340.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.4921875" x="2.75390625" y="6.015625">uses</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n2" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="57.6484375" x="-129.56857374847914" y="37.015625">bound to</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n1::e0" source="n1::n0" target="n1::n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="57.6484375" x="15.2568359375" y="2.0">bound to</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n1::e1" source="n1::n2" target="n1::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="57.6484375" x="15.2568359375" y="2.0">bound to</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n1::n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n1::n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n1::e2" source="n1::n1" target="n1::n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="34.8671875" x="39.8681640625" y="-35.440164829494904">input</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n1::e3" source="n1::n1" target="n1::n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="43.580078125" x="35.51171875" y="17.983441941706644">output</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n4" target="n0::n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n0::e0" source="n0::n0" target="n0::n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="57.6484375" x="15.2568359375" y="2.0">bound to</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n0::e1" source="n0::n2" target="n0::n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="57.6484375" x="15.2568359375" y="2.0">bound to</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n0::e2" source="n0::n1" target="n0::n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="head" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="34.8671875" x="39.8681640625" y="-37.82303159752598">input</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="n0::e3" source="n0::n1" target="n0::n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="43.580078125" x="35.51171875" y="18.397636013140527">output</y:EdgeLabel>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n6" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n4" target="n0::n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n0::n1" target="n2">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="105.0" y="414.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n5" target="n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n5" target="n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n6" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:BezierEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+        </y:BezierEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
+</graphml>

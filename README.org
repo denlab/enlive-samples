@@ -45,7 +45,8 @@
 
 ** Now point your browser at http://localhost:8080
 
-* First example: A simple html page with dynamic content.
+* Sample1: A simple html page with dynamic content.
+* 
 * Credits
 
   Code heavily borrowed from [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
