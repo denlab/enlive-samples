@@ -3,11 +3,56 @@
 
 * What's this ? 
 
-  [[https://github.com/cgrand/enlive][Enlive]] is a great templating framework, but it is also mind bending.
+  [[https://github.com/cgrand/enlive][Enlive]] is a great templating framework for Clojure, but it is also mind bending.
 
   enlive-samples tries to provide very simple examples, to be used as
   a starting point in other projects
 
+* Running the project
+
+#+BEGIN_SRC sh
+   cd enlive-samples
+#+END_SRC
+
+** Get the dependencies: 
+
+#+BEGIN_SRC sh
+   lein deps
+#+END_SRC
+
+** Start a REPL: 
+
+#+BEGIN_SRC sh
+   lein repl
+#+END_SRC
+
+   or with emacs: 
+
+#+BEGIN_SRC sh
+   lein swank
+#+END_SRC
+
+** At the repl: 
+
+#+BEGIN_SRC clojure
+(do (require 'enlivesamples.sample1)
+    (in-ns 'enlivesamples.sample1)
+    (use ['clojure.contrib.repl-utils :only ['show]]
+         ['clojure.test :only '[run-tests]]
+         ['clojure.repl]
+         ['enlivesamples.utils]))
+#+END_SRC
+
+* First example: A simple html page with dynamic content.
+* Credits
+
+  Code heavily borrowed from [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
+
 * Resources
 
-   - A great tutorial :: [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
+   - A great Enlive tutorial: [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
+
+* TODO [1/1]
+
+** DONE add credits in the files
+   CLOSED: [2011-05-21 Sat 17:43]
