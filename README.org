@@ -35,22 +35,30 @@
 ** At the REPL: 
 
 #+BEGIN_SRC clojure
-(do (require 'enlivesamples.sample1)
-    (in-ns 'enlivesamples.sample1)
-    (use ['clojure.contrib.repl-utils :only ['show]]
-         ['clojure.test :only '[run-tests]]
-         ['clojure.repl]
-         ['enlivesamples.utils]))
+(ns user
+  (:require [net.cgrand.enlive-html :as html]
+  (:use     [enlivesamples.sample2])
+            [clojure.contrib.repl-utils :only [show]]
+            [clojure.test :only [run-tests]]
+            [clojure.repl]
+            [enlivesamples.utils]))
 #+END_SRC
 
 ** Now point your browser at http://localhost:8080
 
-* Sample1: A simple html page with dynamic content.
+* Sample 1: Replace the content of a tag.
+
+We will just replace the content of the tag with =id= message.
 
 Here is a diagram of the sample 1 that tries ;) to explain how the
 pieces work together.
 
 [[https://github.com/denlab/enlive-samples/raw/master/src/doc/image/diagram-sample1.png]]
+
+* Sample 2: Replace the content of an attribute.
+
+  We just replace the style of the =div= with =id= message, with a
+  random background color.
 
 * Credits
 
@@ -60,7 +68,3 @@ pieces work together.
 
    - A great Enlive tutorial: [[https://github.com/swannodette/enlive-tutorial][enlive-tutorial]].
 
-* TODO [1/1]
-
-** DONE add credits in the files
-   CLOSED: [2011-05-21 Sat 17:43]
