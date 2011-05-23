@@ -57,8 +57,11 @@ pieces work together.
 
 * Sample 2: Replace the content of an attribute.
 
-  We just replace the style of the =div= with =id= message, with a
+  We just replace the style of the =div= with =id= = 'message', with a
   random background color.
+* Sample 3: Repeating elements
+
+Repeat a dynamic list of elements.
 
 * Credits
 
