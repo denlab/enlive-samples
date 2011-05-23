@@ -1,8 +1,7 @@
 (defproject enlive-samples "0.1.0"
   :description "Enlive samples"
-  :dependencies [[org.clojure/clojure "1.2.0"]
+  :dependencies [[org.clojure/clojure "1.2.1"]
                  [org.clojure/clojure-contrib "1.2.0"]
                  [enlive "1.0.0-SNAPSHOT"]
                  [ring "0.2.5"]
-                 [net.cgrand/moustache "1.0.0-SNAPSHOT"]]
-  :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"]])
+                 [net.cgrand/moustache "1.0.0-SNAPSHOT"]])
