@@ -24,7 +24,7 @@
 (def *link-sel* [[:.content (nth-of-type 1)] :> first-child])
 
 (defsnippet link-model "enlivesamples/sample3.html" *link-sel*
-  [{:keys [text href]}]
+  [{:keys [text]}]
   [:a] (do->
         (content text)))
 
