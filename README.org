@@ -7,6 +7,11 @@
 
   enlive-samples tries to provide very simple examples, to be used as
   a starting point in other projects
+* Beware
+
+[[https://github.com/denlab/enlive-samples/raw/master/src/doc/image/danger.png]]
+
+*Under construction! Not ready yet!*
 
 * Running the project
 
