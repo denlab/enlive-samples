@@ -25,8 +25,7 @@
 
 (defsnippet link-model "enlivesamples/sample3.html" *link-sel*
   [{:keys [text]}]
-  [:a] (do->
-        (content text)))
+  [:a] (content text))
 
 ; we only want to select the model h2 ul range
 (def *section-sel* {[:.title] [[:.content (nth-of-type 1)]]})
