@@ -37,7 +37,7 @@
 #+BEGIN_SRC clojure
 (ns user
   (:require [net.cgrand.enlive-html :as html])
-  (:use     [enlivesamples.sample2]
+  (:use     [enlivesamples.sample3]
             [clojure.contrib.repl-utils :only [show]]
             [clojure.test :only [run-tests]]
             [clojure.repl]
