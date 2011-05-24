@@ -65,7 +65,34 @@ pieces work together.
   random background color.
 * Sample 3: Repeating elements
 
-Repeat a dynamic list of elements.
+Here we simply repeat divs.
+
+** On the REPL
+
+#+BEGIN_SRC clojure
+(ns user
+  (:require [net.cgrand.enlive-html :as html])
+  (:use     [enlivesamples.sample3]
+            [clojure.contrib.repl-utils :only [show]]
+            [clojure.test :only [run-tests]]
+            [clojure.repl]
+            [enlivesamples.utils]))
+#+END_SRC
+
+** To test the selector on the REPL: 
+
+#+BEGIN_SRC clojure
+(render
+ (html/emit*
+  (section-model {:title "title"
+                  :sections {:sections [{:title "abc"}]}})))
+#+END_SRC
+
+* Sample 4: Repeating elements in a container
+
+Here we will repeat components inside a container.
+
+
 
 * Credits
 

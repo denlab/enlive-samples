@@ -68,3 +68,10 @@ div#navs
 {
   height: 400px;
 }
+
+.title {
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    padding:5px;
+}
